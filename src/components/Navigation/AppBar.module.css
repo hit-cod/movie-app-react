@@ -1,0 +1,27 @@
+.navMenu {
+  list-style: none;
+  width: 910px;
+  display: flex;
+  margin: 20px auto;
+  padding: 0;
+}
+
+.navItem {
+  text-align: center;
+  line-height: 35px;
+  font-size: 20px;
+  width: 90px;
+  height: 35px;
+  padding-right: 50px;
+}
+
+.navItem + li:nth-child(2) {
+  padding-right: 0;
+}
+
+.activeNavLink {
+  display: block;
+  background-color: #d9a520;
+  color: #ffffff;
+  border-radius: 7px;
+}

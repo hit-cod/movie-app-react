@@ -1,0 +1,29 @@
+.container {
+  width: 910px;
+  margin: auto;
+}
+
+.movieDetails {
+  margin: 30px 30px;
+  display: flex;
+}
+
+.movieDetails img {
+  margin-right: 40px;
+}
+
+.backBtn {
+  width: 90px;
+  height: 35px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fcd9cc;
+  color: #551A8B;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.backBtn:hover {
+  background-color: #d9a520;
+  color: #ffffff;
+}

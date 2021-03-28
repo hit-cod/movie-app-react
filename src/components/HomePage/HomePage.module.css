@@ -1,0 +1,27 @@
+.container{
+    width: 910px;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+    color: #d9a520;
+}
+
+.moviesList {
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+}
+
+.movieItem {
+    margin: 10px 0;
+}
+
+.movieLink {
+    color: black;
+}
+
+.movieLink:hover {
+    background-color: #FBEEE9;
+}
