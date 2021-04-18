@@ -19,9 +19,25 @@
   padding-right: 0;
 }
 
+.navLink {
+  text-decoration: none;
+}
+
 .activeNavLink {
   display: block;
   background-color: #d9a520;
   color: #ffffff;
   border-radius: 7px;
+}
+
+@media (max-width: 1000px) {
+  .navMenu {
+    width: 610px;
+  }
+}
+
+@media (max-width: 650px) {
+  .navMenu {
+    width: 470px;
+  }
 }

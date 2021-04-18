@@ -87,7 +87,7 @@ export default function MovieDetailsPage() {
 
   return (
     <div className={s.container}>
-      <button type="button" onClick={handleBackClick} className={s.backBtn}>
+      <button type="button" onClick={handleBackClick} className={s.actionBtn}>
         Go back
       </button>
       {movie === '' && <p>Something went wrong. Please, try later.</p>}
@@ -118,8 +118,8 @@ export default function MovieDetailsPage() {
 
           <section>
             <h4>Additional information</h4>
-            <ul>
-              <li>
+            <ul className={s.addInfoList}>
+              <li >
                 <NavLink
                   to={{
                     pathname: `${url}/cast`,
@@ -129,11 +129,11 @@ export default function MovieDetailsPage() {
                     },
                   }}
                 >
-                  Cast
+                  <button type="button" className={s.actionBtn}>Cast</button>
                 </NavLink>
               </li>
 
-              <li>
+              <li >
                 <NavLink
                   to={{
                     pathname: `${url}/reviews`,
@@ -143,10 +143,12 @@ export default function MovieDetailsPage() {
                     },
                   }}
                 >
-                  Reviews
+                  <button type="button" className={s.actionBtn}>Reviews</button>
                 </NavLink>
               </li>
             </ul>
+
+            
           </section>
           <hr />
 

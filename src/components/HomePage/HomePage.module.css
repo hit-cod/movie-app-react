@@ -1,27 +1,40 @@
-.container{
-    width: 910px;
-    margin: auto;
+.container {
+  width: 910px;
+  margin: auto;
 }
 
 .title {
-    text-align: center;
-    color: #d9a520;
+  text-align: center;
+  color: #d9a520;
+  margin-bottom: 50px;
 }
 
 .moviesList {
-    margin: 0;
-    padding: 0;
-    padding-left: 20px;
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
 }
 
 .movieItem {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 .movieLink {
-    color: black;
+  color: black;
 }
 
 .movieLink:hover {
-    background-color: #FBEEE9;
+  background-color: #fbeee9;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 610px;
+  }
+}
+
+@media (max-width: 650px) {
+  .container {
+    width: 470px;
+  }
 }

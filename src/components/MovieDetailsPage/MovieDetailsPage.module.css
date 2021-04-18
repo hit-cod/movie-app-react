@@ -12,18 +12,39 @@
   margin-right: 40px;
 }
 
-.backBtn {
+.actionBtn {
   width: 90px;
   height: 35px;
   font-family: 'Montserrat', sans-serif;
   background-color: #fcd9cc;
-  color: #551A8B;
+  color: #551a8b;
   border: none;
   border-radius: 7px;
   cursor: pointer;
 }
 
-.backBtn:hover {
+.actionBtn:hover {
   background-color: #d9a520;
   color: #ffffff;
+}
+
+.addInfoList {
+  list-style: none;
+  margin: 0 0 21.280px 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 610px;
+  }
+}
+
+@media (max-width: 650px) {
+  .container {
+    width: 470px;
+  }
 }

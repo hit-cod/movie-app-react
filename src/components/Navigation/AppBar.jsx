@@ -11,7 +11,7 @@ export default function MoviesView() {
             <NavLink
               exact
               to="/"
-              style={{ textDecoration: 'none', }}
+              className={s.navLink}
               activeClassName={s.activeNavLink}
             >
               Home
